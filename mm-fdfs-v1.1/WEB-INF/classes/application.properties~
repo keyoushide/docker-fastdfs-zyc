@@ -1,0 +1,28 @@
+datasource.type=mysql
+datasource.driverClassName=com.mysql.jdbc.Driver
+datasource.url=jdbc:mysql://169.226.180.250:3306/fdfs?useUnicode=true&characterEncoding=UTF-8
+datasource.username=root
+datasource.password=1q2w3e4r
+datasource.maxActive=5
+datasource.maxIdle=2
+datasource.maxWait=120000
+datasource.whenExhaustedAction=1
+datasource.validationQuery=select 1 from sequenceid
+datasource.testOnBorrow=true
+datasource.testOnReturn=false
+
+c3p0.acquireIncrement=3
+c3p0.initialPoolSize=3
+c3p0.idleConnectionTestPeriod=900
+c3p0.minPoolSize=2
+c3p0.maxPoolSize=50
+c3p0.maxStatements=100
+c3p0.numHelperThreads=10
+c3p0.maxIdleTime=600
+
+#mail server info
+mail.smtp.host=smtp.gmail.com
+mail.smtp.auth=true
+mail.smtp.username=wjh790614015@gmail.com
+mail.smtp.password=13875073543wjh
+#cache.config=oscache.properties
